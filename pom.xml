@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
     <groupId>Collections</groupId>
     <artifactId>Collections</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -19,6 +20,11 @@
             </plugin>
         </plugins>
     </build>
+=======
+    <groupId>tarr4</groupId>
+    <artifactId>tarr4</artifactId>
+    <version>1.0-SNAPSHOT</version>
+>>>>>>> 766cfb2f09eddbc21cd06ddecc1e75c2a2b23993
 
 
 </project>
