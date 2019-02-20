@@ -32,8 +32,19 @@ public class Training
         return trainingName;
     }
 
-    public void setTrainingName(String trainingName)
+    public void addNumberOfParticipants() {
+        this.numberOfParticipants ++;
+    }
+
+    public void subtractNumberOfPants()
     {
-        this.trainingName = trainingName;
+        this.numberOfParticipants--;
+    }
+
+    @Override
+    public String toString() {
+        return "Nazwa kursu: " + trainingName +
+                " , kategoria: " + trainingCategory + " , ilośc kursantów: " + numberOfParticipants + " , trener: " + trener +
+                " , termin kursu: " + term ;
     }
 }
